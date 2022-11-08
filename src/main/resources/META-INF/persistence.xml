@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<persistence
+        xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_2.xsd"
+        version="2.2">
+    <persistence-unit name="ZI2-Zad5" transaction-type="RESOURCE_LOCAL">
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://db.zut.edu.pl/jm50478"/>
+            <property name="javax.persistence.jdbc.user" value="jm50478"/>
+            <property name="javax.persistence.jdbc.password" value="rL6hTcSR"/>
+            <!-- <property name="javax.persistence.schema-generation.database.action" value="create"/> -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>
